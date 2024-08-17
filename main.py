@@ -54,7 +54,7 @@ def main_page():
     if st.session_state.authentication_status:
         visualize_page()
     else:
-        st.image("assets\img-3-7-1024x614.png")
+        st.image("assets//img-3-7-1024x614.png")
         st.html("<h5 style='text-align:center;color:red'>Please sign in, to use the system</h5>")
         st.html("<span style='text-align:center;color:#414eb4;display:block'>Developed by Venus Gonyora @ 2024</span>")
 
