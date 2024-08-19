@@ -26,6 +26,7 @@ if 'authentication_status' not in st.session_state:
 def authenticate(username, password):
     if username == USERNAME and password == PASSWORD:
         st.session_state.authentication_status = True
+        st.rerun()
     else:
         st.session_state.authentication_status = False
         st.error("Invalid username or password")
@@ -55,7 +56,7 @@ def main_page():
         visualize_page()
     else:
         st.image("assets//img-3-7-1024x614.png")
-        st.html("<h5 style='text-align:center;color:red'>Please sign in, to use the system</h5>")
+        st.html("<h5 style='text-align:center;color:red'>Please sign in to use the system</h5>")
         st.html("<span style='text-align:center;color:#414eb4;display:block'>Developed by Venus Gonyora @ 2024</span>")
 
 
