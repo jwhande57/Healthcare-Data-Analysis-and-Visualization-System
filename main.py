@@ -3,7 +3,8 @@ import pandas as pd
 import plotly.express as px
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
+from sklearn.preprocessing import LabelEncoder, StandardScaler
+from imblearn.over_sampling import SMOTE
 from sklearn.preprocessing import LabelEncoder
 
 # Set up Streamlit page configuration
@@ -17,7 +18,7 @@ st.markdown(
     """
 <style>
     header {
-        display:none!important;
+        display:none!important!;
     }
 </style>
 """,
@@ -283,55 +284,78 @@ def visualize_and_predict_page():
 
         # Machine Learning Model: Predicting Risk of Readmission
         st.subheader("Predict Patient Risk of Readmission")
-        age_options = sorted(data["Age"].unique())
+        # Define the feature columns
+        
+        # Function to encode new input data for the model
+        def encoding_input_data(age, gender, diagnosis, length_of_stay, prescribed_medication):
+            input_data = pd.DataFrame([{
+                "Age": age,
+                "Gender": gender,
+                "Diagnosis": diagnosis,
+                "Length_of_Stay": length_of_stay,
+                "Prescribed_Medication": prescribed_medication
+            }])
+            
+            # Encode the input data using the label encoders
+            for column in features:
+                if column in label_encoders:
+                    # Ensure the value exists in the encoder to avoid unseen value errors
+                    if input_data[column].iloc[0] not in label_encoders[column].classes_:
+                        raise ValueError(f"Value '{input_data[column].iloc[0]}' for '{column}' not seen in training data.")
+                    input_data[column] = label_encoders[column].transform(input_data[column])
+            
+            # Standardize the numerical columns
+            input_data[["Age", "Length_of_Stay"]] = scaler.transform(input_data[["Age", "Length_of_Stay"]])
+            
+            return input_data
+
+        data = pd.read_csv("readmission_data.csv")
+        features = [
+            "Age",
+            "Gender",
+            "Diagnosis",
+            "Length_of_Stay",
+            "Prescribed_Medication"
+        ]
+        # Select relevant columns, drop NA values
+        model_data = data[features + ["Readmitted"]]
+        model_data.dropna(inplace=True)
+
+        # Initialize LabelEncoders for categorical features
+        label_encoders = {}
+        for col in features:
+            if model_data[col].dtype == "object":
+                label_encoders[col] = LabelEncoder()
+                model_data[col] = label_encoders[col].fit_transform(model_data[col])
+
+        # Separate features (X) and target (y)
+        X = model_data[features]
+        y = model_data["Readmitted"]
+
+        # Split the data before scaling to avoid data leakage
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+
+        # Standardize the continuous features on training data only
+        scaler = StandardScaler()
+        X_train[["Age", "Length_of_Stay"]] = scaler.fit_transform(X_train[["Age", "Length_of_Stay"]])
+        X_test[["Age", "Length_of_Stay"]] = scaler.transform(X_test[["Age", "Length_of_Stay"]])
+
+        # Handle class imbalance using SMOTE on the training data only
+        smote = SMOTE(random_state=42)
+        X_train_res, y_train_res = smote.fit_resample(X_train, y_train)
+
+        # Train a RandomForestClassifier with balanced class weights
+        rf_model = RandomForestClassifier(n_estimators=100, random_state=42, class_weight="balanced")
+        rf_model.fit(X_train_res, y_train_res)
 
         gender_options = data["Gender"].unique()
 
         diagnosis_options = data["Diagnosis"].unique()
 
-        length_of_stay_options = sorted(data["Length_of_Stay"].unique())
-
         medication_options = data["Prescribed_Medication"].unique()
-        # Ensure we're using the full data instead of filtered data for the model
-        # Feature columns definition
-        feature_columns = [
-            "Age",
-            "Gender",
-            "Diagnosis",
-            "Length_of_Stay",
-            "Prescribed_Medication",
-        ]
-
-        if "Readmitted" in data.columns:
-            # Use the original data frame for model data
-            model_data = data[feature_columns + ["Readmitted"]]
-            model_data.dropna(inplace=True)
-
-            # Encode categorical variables
-            label_encoders = {}
-            for column in feature_columns:
-                if model_data[column].dtype == "object":
-                    label_encoders[column] = LabelEncoder()
-                    model_data[column] = label_encoders[column].fit_transform(
-                        model_data[column]
-                    )
-
-            # Define features and target variable
-            X = model_data[feature_columns]
-            y = model_data["Readmitted"]
-
-            # Split the data into training and testing sets
-            X_train, X_test, y_train, y_test = train_test_split(
-                X, y, test_size=0.3, random_state=42
-            )
-
-            # Train a RandomForestClassifier
-            rf_model = RandomForestClassifier(n_estimators=100, random_state=42)
-            rf_model.fit(X_train, y_train)
-
-            # New Patient Prediction
-            new_patient = {
-                "Age": st.selectbox("Select Age", options=sorted(data["Age"].unique())),
+        # New Patient Prediction
+        new_patient = {
+                "Age": st.selectbox("Select Age", options=sorted(range(1,80))),
                 "Gender": st.selectbox(
                     "Select Gender", options=data["Gender"].unique()
                 ),
@@ -340,42 +364,26 @@ def visualize_and_predict_page():
                 ),
                 "Length_of_Stay": st.selectbox(
                     "Select Length of Stay",
-                    options=sorted(data["Length_of_Stay"].unique()),
+                    options=sorted(range(1,80)),
                 ),
                 "Prescribed_Medication": st.selectbox(
                     "Select Prescribed Medication",
                     options=data["Prescribed_Medication"].unique(),
                 ),
             }
-
-            if st.button("Predict Readmission Risk"):
-                # Prepare input data for prediction
-                input_data = pd.DataFrame([new_patient])[
-                    feature_columns
-                ]  # Ensure correct ordering
-
-                # Encode the input data
-                for column in feature_columns:
-                    if column in label_encoders:
-                        input_data[column] = label_encoders[column].transform(
-                            input_data[column]
-                        )
-
-                # Predict and display the result
-                prediction = rf_model.predict(input_data)[0]
+        
+        if st.button("Predict Readmission Risk"):
+            try:
+                prediction = rf_model.predict(encoding_input_data(new_patient['Age'], new_patient['Gender'],new_patient['Diagnosis'],new_patient['Length_of_Stay'], new_patient['Prescribed_Medication']))
                 if prediction == 1:
                     st.error("The patient is at **high risk** of readmission.")
                 else:
                     st.success("The patient is at **low risk** of readmission.")
 
-        else:
-            st.warning(
-                "The dataset does not contain a 'Readmitted' column for predictive modeling."
-            )
-
+            except ValueError as e:
+                print(e)
     else:
         st.info("Please upload a CSV file to visualize the data.")
-
 
 # Run the main page
 main_page()

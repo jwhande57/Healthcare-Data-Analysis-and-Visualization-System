@@ -1,0 +1,1001 @@
+Age,Gender,Diagnosis,Length_of_Stay,Prescribed_Medication,Readmitted
+69,Male,Diabetes,1,Amlodipine,1
+32,Male,COPD,20,Lisinopril,0
+89,Female,Hypertension,29,Prednisone,0
+78,Male,Diabetes,16,Amlodipine,0
+38,Male,Asthma,2,Prednisone,0
+41,Male,Diabetes,2,Amlodipine,0
+20,Male,Diabetes,3,Lisinopril,1
+39,Female,COPD,8,Insulin,0
+70,Male,Hypertension,24,Lisinopril,0
+19,Male,Asthma,28,Insulin,0
+47,Male,Heart Disease,15,Insulin,1
+55,Male,Heart Disease,7,Prednisone,1
+19,Female,Diabetes,6,Lisinopril,1
+81,Female,COPD,9,Amlodipine,1
+77,Male,COPD,20,Lisinopril,0
+38,Male,Heart Disease,28,Prednisone,0
+50,Male,Asthma,1,Insulin,0
+75,Male,Hypertension,8,Prednisone,1
+39,Male,Asthma,23,Metformin,0
+66,Male,Hypertension,23,Metformin,0
+76,Female,Heart Disease,3,Amlodipine,1
+59,Male,Hypertension,4,Prednisone,1
+77,Female,COPD,26,Amlodipine,1
+32,Female,Diabetes,25,Amlodipine,0
+79,Male,Diabetes,15,Metformin,0
+79,Female,Heart Disease,6,Amlodipine,1
+64,Female,COPD,15,Metformin,0
+79,Female,Asthma,21,Insulin,1
+68,Female,COPD,3,Prednisone,1
+72,Female,Diabetes,25,Amlodipine,0
+81,Female,Diabetes,21,Metformin,1
+20,Male,COPD,21,Lisinopril,1
+68,Female,COPD,14,Amlodipine,1
+24,Female,Diabetes,20,Insulin,0
+38,Female,Asthma,14,Insulin,1
+56,Male,Heart Disease,4,Lisinopril,1
+35,Female,Heart Disease,12,Metformin,1
+21,Male,COPD,17,Amlodipine,1
+77,Female,Heart Disease,7,Metformin,1
+31,Male,Diabetes,9,Insulin,1
+26,Male,Diabetes,3,Metformin,1
+70,Female,COPD,28,Insulin,0
+19,Female,COPD,13,Metformin,0
+77,Male,COPD,15,Lisinopril,1
+88,Female,Asthma,18,Prednisone,0
+61,Male,Heart Disease,19,Lisinopril,0
+25,Male,COPD,1,Lisinopril,1
+64,Male,Hypertension,6,Prednisone,0
+52,Male,Hypertension,27,Prednisone,1
+53,Male,Diabetes,27,Amlodipine,1
+67,Female,Heart Disease,23,Amlodipine,1
+21,Male,COPD,27,Lisinopril,1
+19,Male,Hypertension,27,Lisinopril,1
+23,Female,Heart Disease,2,Insulin,0
+71,Male,Diabetes,24,Insulin,1
+21,Female,Asthma,14,Amlodipine,0
+71,Female,Heart Disease,6,Amlodipine,1
+80,Female,Heart Disease,14,Insulin,1
+35,Male,Asthma,4,Insulin,1
+61,Male,Heart Disease,21,Metformin,0
+51,Male,Diabetes,8,Metformin,1
+79,Female,Diabetes,3,Insulin,1
+31,Male,Asthma,19,Metformin,1
+65,Female,COPD,14,Prednisone,1
+32,Male,Hypertension,27,Amlodipine,0
+89,Female,COPD,20,Amlodipine,1
+79,Male,Heart Disease,17,Insulin,0
+57,Male,Hypertension,25,Lisinopril,1
+70,Male,Asthma,8,Insulin,0
+41,Female,Asthma,24,Metformin,0
+43,Female,Hypertension,14,Lisinopril,1
+77,Male,Diabetes,26,Metformin,1
+58,Male,Hypertension,6,Prednisone,0
+46,Female,Heart Disease,23,Metformin,1
+32,Female,Diabetes,22,Prednisone,1
+62,Female,Asthma,16,Prednisone,1
+82,Male,Hypertension,25,Metformin,0
+88,Female,COPD,19,Metformin,1
+26,Male,COPD,14,Prednisone,1
+18,Female,Heart Disease,19,Lisinopril,1
+25,Male,COPD,3,Prednisone,0
+80,Female,Hypertension,10,Amlodipine,1
+28,Female,Hypertension,19,Prednisone,0
+25,Female,COPD,9,Lisinopril,1
+52,Female,Hypertension,28,Amlodipine,0
+52,Female,Heart Disease,20,Insulin,1
+50,Male,Diabetes,13,Insulin,1
+22,Female,Heart Disease,7,Lisinopril,0
+58,Female,Heart Disease,14,Prednisone,0
+45,Female,Hypertension,9,Metformin,0
+24,Male,Diabetes,27,Lisinopril,1
+89,Female,Hypertension,28,Amlodipine,1
+29,Male,Asthma,23,Amlodipine,1
+51,Female,Hypertension,25,Insulin,1
+50,Female,Hypertension,28,Amlodipine,0
+65,Male,Hypertension,19,Lisinopril,1
+40,Female,Diabetes,15,Amlodipine,1
+79,Male,Hypertension,20,Lisinopril,1
+54,Male,Diabetes,14,Metformin,1
+61,Female,COPD,24,Insulin,1
+52,Male,Asthma,6,Amlodipine,1
+82,Female,Diabetes,21,Lisinopril,1
+64,Female,COPD,29,Prednisone,0
+20,Male,Diabetes,4,Insulin,1
+18,Male,Diabetes,8,Metformin,1
+22,Male,Asthma,17,Lisinopril,1
+31,Male,Heart Disease,9,Metformin,1
+44,Female,Heart Disease,1,Metformin,0
+26,Female,Diabetes,24,Amlodipine,0
+32,Male,Hypertension,20,Amlodipine,0
+59,Female,COPD,25,Lisinopril,0
+68,Female,Hypertension,14,Prednisone,0
+80,Female,Hypertension,11,Lisinopril,0
+69,Female,Diabetes,21,Prednisone,1
+21,Male,Diabetes,3,Metformin,0
+40,Male,Diabetes,9,Insulin,0
+32,Female,Diabetes,27,Lisinopril,1
+60,Male,Heart Disease,14,Lisinopril,0
+46,Male,Diabetes,9,Prednisone,1
+53,Male,Heart Disease,4,Metformin,1
+30,Female,Heart Disease,27,Metformin,0
+49,Female,Diabetes,4,Prednisone,1
+88,Female,Asthma,28,Metformin,0
+76,Male,COPD,8,Amlodipine,0
+45,Female,Hypertension,2,Insulin,1
+83,Female,Heart Disease,9,Lisinopril,1
+59,Male,COPD,29,Insulin,0
+62,Female,Asthma,14,Lisinopril,1
+79,Female,Hypertension,22,Amlodipine,1
+74,Male,Hypertension,9,Metformin,0
+23,Male,Heart Disease,24,Prednisone,0
+45,Male,Diabetes,23,Amlodipine,1
+45,Female,Asthma,16,Insulin,0
+61,Female,Heart Disease,29,Prednisone,0
+47,Female,Asthma,17,Metformin,0
+79,Male,Diabetes,16,Amlodipine,0
+79,Male,Diabetes,12,Prednisone,0
+18,Female,Heart Disease,3,Amlodipine,0
+44,Female,Diabetes,11,Amlodipine,0
+79,Male,COPD,14,Metformin,1
+20,Male,Hypertension,18,Lisinopril,0
+87,Male,Heart Disease,21,Prednisone,1
+89,Male,Asthma,21,Metformin,1
+44,Female,COPD,5,Amlodipine,1
+26,Male,Heart Disease,16,Metformin,0
+79,Female,Diabetes,20,Lisinopril,0
+54,Female,Diabetes,5,Prednisone,1
+68,Female,Diabetes,3,Lisinopril,0
+61,Male,Diabetes,12,Insulin,1
+41,Male,Asthma,1,Prednisone,0
+76,Male,COPD,21,Lisinopril,0
+49,Male,Hypertension,29,Amlodipine,1
+69,Female,Asthma,9,Prednisone,1
+79,Male,Asthma,29,Prednisone,1
+75,Male,Hypertension,9,Metformin,0
+69,Female,Hypertension,4,Amlodipine,1
+29,Male,Diabetes,3,Insulin,0
+56,Female,Asthma,17,Lisinopril,0
+19,Female,Heart Disease,2,Metformin,0
+20,Female,Hypertension,24,Lisinopril,1
+73,Female,Hypertension,1,Insulin,1
+76,Female,COPD,8,Insulin,1
+19,Female,Heart Disease,13,Prednisone,0
+19,Female,Heart Disease,23,Insulin,0
+71,Female,Hypertension,15,Lisinopril,1
+18,Male,Diabetes,8,Amlodipine,0
+36,Male,COPD,12,Amlodipine,0
+19,Male,Heart Disease,22,Prednisone,1
+70,Male,Hypertension,12,Lisinopril,1
+61,Female,Heart Disease,14,Lisinopril,1
+49,Male,COPD,15,Insulin,0
+87,Female,COPD,15,Lisinopril,0
+49,Male,Asthma,9,Metformin,0
+85,Male,Hypertension,19,Insulin,0
+72,Male,COPD,26,Metformin,0
+73,Female,Asthma,20,Prednisone,1
+34,Male,Asthma,29,Amlodipine,0
+55,Female,Heart Disease,22,Prednisone,0
+41,Female,Heart Disease,8,Amlodipine,0
+86,Male,Asthma,21,Prednisone,1
+87,Male,Heart Disease,19,Lisinopril,1
+28,Male,COPD,6,Metformin,1
+33,Female,Diabetes,20,Amlodipine,0
+76,Male,COPD,25,Insulin,1
+87,Female,Asthma,29,Metformin,1
+20,Female,Asthma,19,Insulin,1
+37,Male,COPD,4,Metformin,0
+76,Male,Heart Disease,23,Metformin,1
+53,Female,Heart Disease,7,Prednisone,0
+36,Female,Asthma,28,Amlodipine,0
+84,Female,Hypertension,28,Amlodipine,1
+36,Male,Heart Disease,4,Metformin,0
+37,Female,COPD,22,Lisinopril,1
+88,Male,Heart Disease,12,Lisinopril,0
+69,Female,COPD,13,Insulin,1
+50,Female,Asthma,3,Insulin,1
+57,Male,Heart Disease,22,Prednisone,1
+56,Female,COPD,12,Metformin,0
+18,Male,Asthma,2,Insulin,1
+28,Male,Hypertension,24,Insulin,0
+74,Female,COPD,2,Metformin,1
+67,Male,Hypertension,27,Prednisone,0
+40,Male,Hypertension,23,Insulin,0
+48,Female,Diabetes,9,Prednisone,1
+59,Male,Heart Disease,1,Amlodipine,1
+24,Male,COPD,8,Prednisone,1
+33,Male,Hypertension,23,Lisinopril,1
+77,Female,Diabetes,6,Lisinopril,1
+19,Male,Asthma,6,Prednisone,0
+18,Female,COPD,22,Lisinopril,1
+65,Female,Hypertension,25,Amlodipine,1
+29,Male,Heart Disease,18,Metformin,0
+86,Male,Diabetes,17,Lisinopril,1
+54,Male,Hypertension,29,Lisinopril,1
+49,Female,Heart Disease,12,Prednisone,0
+26,Male,Hypertension,6,Amlodipine,1
+36,Male,COPD,26,Metformin,1
+65,Male,COPD,27,Prednisone,1
+20,Male,COPD,8,Prednisone,0
+37,Male,Diabetes,19,Amlodipine,1
+41,Female,COPD,28,Metformin,0
+71,Female,Heart Disease,10,Amlodipine,1
+50,Male,Hypertension,1,Metformin,0
+41,Male,Asthma,25,Amlodipine,1
+89,Male,Heart Disease,29,Prednisone,0
+53,Male,Heart Disease,13,Prednisone,0
+55,Female,COPD,17,Insulin,0
+42,Male,Diabetes,3,Lisinopril,0
+35,Female,Hypertension,8,Amlodipine,0
+83,Female,Diabetes,14,Insulin,0
+71,Male,Hypertension,3,Lisinopril,1
+52,Female,Hypertension,16,Amlodipine,1
+78,Female,Diabetes,13,Metformin,0
+58,Female,Heart Disease,20,Lisinopril,0
+50,Female,Hypertension,24,Prednisone,0
+85,Male,Diabetes,17,Insulin,0
+50,Male,Hypertension,13,Lisinopril,1
+31,Female,Asthma,29,Lisinopril,0
+38,Male,Heart Disease,6,Prednisone,1
+65,Male,COPD,17,Amlodipine,1
+37,Male,Hypertension,14,Metformin,0
+25,Male,Asthma,17,Prednisone,0
+24,Male,COPD,8,Metformin,1
+84,Female,COPD,11,Amlodipine,1
+34,Male,Hypertension,20,Lisinopril,0
+50,Male,Diabetes,28,Metformin,0
+65,Male,Hypertension,1,Insulin,0
+76,Male,Asthma,26,Insulin,1
+39,Female,COPD,7,Prednisone,1
+47,Female,Hypertension,21,Amlodipine,0
+55,Female,Diabetes,21,Prednisone,1
+68,Female,Hypertension,17,Prednisone,1
+71,Male,Heart Disease,10,Prednisone,0
+25,Female,Diabetes,11,Insulin,0
+44,Male,Asthma,22,Insulin,1
+44,Male,COPD,9,Prednisone,1
+38,Male,Hypertension,9,Insulin,0
+47,Male,Diabetes,24,Amlodipine,0
+45,Male,Heart Disease,5,Prednisone,0
+81,Female,Diabetes,17,Insulin,0
+86,Female,Heart Disease,9,Metformin,0
+78,Female,Asthma,17,Prednisone,1
+65,Female,COPD,24,Prednisone,1
+36,Male,Asthma,21,Amlodipine,1
+21,Female,Hypertension,19,Lisinopril,1
+52,Male,Diabetes,27,Lisinopril,0
+81,Female,Heart Disease,7,Amlodipine,0
+66,Male,Heart Disease,23,Amlodipine,0
+34,Male,Diabetes,9,Amlodipine,1
+61,Female,Diabetes,7,Lisinopril,1
+47,Male,Hypertension,13,Amlodipine,1
+63,Male,Asthma,11,Insulin,0
+23,Female,Heart Disease,14,Prednisone,1
+54,Male,Hypertension,19,Prednisone,0
+41,Female,Asthma,11,Metformin,0
+63,Female,Hypertension,13,Metformin,0
+70,Female,Heart Disease,14,Prednisone,0
+77,Male,Diabetes,13,Insulin,0
+80,Male,Diabetes,1,Lisinopril,0
+49,Male,Asthma,8,Lisinopril,1
+50,Female,COPD,12,Insulin,0
+84,Male,Asthma,19,Lisinopril,0
+35,Female,COPD,12,Amlodipine,1
+42,Female,Hypertension,8,Prednisone,0
+71,Male,Hypertension,8,Prednisone,1
+75,Female,Heart Disease,29,Insulin,1
+84,Male,COPD,21,Lisinopril,1
+63,Male,Heart Disease,13,Metformin,0
+41,Male,Diabetes,12,Metformin,0
+49,Male,COPD,29,Lisinopril,1
+64,Male,Asthma,16,Metformin,0
+40,Female,Diabetes,1,Insulin,0
+83,Female,Diabetes,13,Insulin,1
+44,Female,Asthma,26,Lisinopril,1
+19,Male,Diabetes,7,Metformin,0
+34,Male,COPD,28,Insulin,1
+50,Male,Heart Disease,26,Insulin,1
+26,Female,Diabetes,5,Amlodipine,1
+60,Male,COPD,8,Amlodipine,0
+65,Female,Hypertension,25,Insulin,0
+56,Female,COPD,27,Lisinopril,0
+59,Male,Heart Disease,14,Prednisone,1
+43,Male,COPD,23,Prednisone,0
+67,Female,Asthma,13,Insulin,1
+42,Male,Heart Disease,15,Insulin,0
+41,Female,Hypertension,23,Insulin,0
+30,Male,Asthma,17,Lisinopril,1
+77,Male,COPD,15,Amlodipine,0
+24,Female,Heart Disease,20,Insulin,1
+74,Male,Hypertension,18,Insulin,0
+53,Female,Asthma,18,Metformin,0
+62,Male,Hypertension,2,Lisinopril,1
+37,Female,COPD,4,Insulin,1
+82,Female,Hypertension,1,Metformin,1
+25,Male,Diabetes,4,Prednisone,0
+33,Female,Asthma,18,Insulin,0
+31,Male,Hypertension,5,Insulin,0
+32,Male,COPD,19,Metformin,1
+83,Male,COPD,15,Lisinopril,1
+49,Female,Hypertension,28,Insulin,1
+80,Female,COPD,8,Prednisone,0
+68,Male,Heart Disease,20,Insulin,0
+42,Male,Heart Disease,17,Prednisone,1
+75,Female,Heart Disease,1,Amlodipine,0
+80,Male,Diabetes,12,Amlodipine,1
+79,Male,Hypertension,26,Prednisone,0
+39,Female,Diabetes,19,Lisinopril,0
+75,Male,COPD,15,Insulin,1
+75,Female,Diabetes,9,Insulin,0
+66,Male,COPD,7,Amlodipine,0
+69,Female,COPD,2,Prednisone,1
+59,Male,Asthma,29,Insulin,1
+87,Male,Heart Disease,9,Insulin,0
+32,Female,COPD,10,Lisinopril,1
+71,Male,Asthma,2,Metformin,0
+77,Female,Heart Disease,19,Amlodipine,1
+25,Male,COPD,11,Amlodipine,0
+70,Female,COPD,13,Metformin,0
+77,Female,Diabetes,10,Insulin,1
+22,Female,Diabetes,14,Lisinopril,0
+85,Female,Heart Disease,18,Lisinopril,0
+23,Male,COPD,19,Amlodipine,1
+64,Male,Hypertension,22,Lisinopril,1
+72,Female,Diabetes,9,Metformin,0
+57,Female,Heart Disease,25,Insulin,1
+69,Female,COPD,7,Metformin,1
+33,Male,COPD,28,Prednisone,0
+30,Male,Hypertension,3,Amlodipine,0
+47,Male,Heart Disease,20,Lisinopril,1
+36,Male,COPD,6,Prednisone,1
+34,Female,Diabetes,27,Lisinopril,1
+80,Female,Hypertension,21,Insulin,0
+36,Female,Heart Disease,2,Insulin,0
+75,Male,Hypertension,29,Insulin,0
+72,Male,Diabetes,6,Lisinopril,0
+79,Male,Heart Disease,3,Prednisone,0
+40,Female,Hypertension,16,Insulin,0
+26,Female,Asthma,8,Prednisone,0
+29,Male,Diabetes,2,Lisinopril,1
+18,Female,Diabetes,17,Prednisone,1
+75,Male,Diabetes,9,Lisinopril,0
+18,Male,Asthma,12,Lisinopril,0
+51,Female,Asthma,3,Amlodipine,0
+65,Male,COPD,11,Lisinopril,1
+18,Female,Hypertension,1,Lisinopril,0
+33,Male,COPD,23,Metformin,1
+78,Female,Hypertension,13,Insulin,1
+81,Female,Asthma,15,Amlodipine,1
+80,Female,Asthma,26,Amlodipine,1
+86,Male,COPD,5,Amlodipine,1
+39,Male,Heart Disease,21,Metformin,0
+84,Female,COPD,17,Lisinopril,0
+43,Female,Hypertension,25,Insulin,1
+33,Male,COPD,23,Prednisone,0
+68,Male,Diabetes,24,Lisinopril,1
+74,Male,Hypertension,25,Metformin,1
+46,Female,Hypertension,6,Lisinopril,0
+86,Male,Heart Disease,28,Lisinopril,0
+64,Male,Asthma,21,Metformin,0
+79,Female,Hypertension,22,Amlodipine,0
+86,Male,Asthma,11,Amlodipine,0
+33,Male,COPD,18,Insulin,1
+65,Male,Diabetes,4,Insulin,0
+56,Female,Heart Disease,3,Amlodipine,0
+50,Female,Asthma,13,Prednisone,0
+40,Female,Hypertension,23,Lisinopril,1
+27,Female,Asthma,9,Prednisone,0
+86,Female,Hypertension,21,Lisinopril,1
+51,Female,Asthma,6,Amlodipine,0
+69,Female,Hypertension,26,Insulin,0
+27,Male,COPD,28,Insulin,1
+36,Male,Hypertension,12,Prednisone,0
+75,Female,Hypertension,2,Insulin,0
+18,Male,Diabetes,3,Amlodipine,1
+86,Male,Hypertension,3,Prednisone,0
+21,Female,Diabetes,28,Lisinopril,1
+33,Male,Heart Disease,12,Insulin,1
+41,Male,Diabetes,15,Metformin,1
+19,Male,COPD,9,Insulin,1
+49,Male,Diabetes,23,Lisinopril,1
+41,Male,Heart Disease,8,Prednisone,0
+29,Female,COPD,11,Lisinopril,0
+67,Female,Asthma,16,Metformin,0
+52,Female,Asthma,26,Amlodipine,1
+50,Male,Diabetes,27,Insulin,1
+50,Female,Diabetes,25,Prednisone,1
+78,Male,Heart Disease,22,Amlodipine,1
+68,Male,Heart Disease,4,Lisinopril,0
+60,Male,Hypertension,28,Prednisone,0
+29,Male,Heart Disease,1,Amlodipine,1
+84,Female,Hypertension,24,Prednisone,1
+82,Female,COPD,7,Metformin,0
+50,Male,Diabetes,2,Metformin,1
+57,Female,COPD,24,Insulin,1
+60,Male,Heart Disease,28,Insulin,1
+61,Female,COPD,5,Metformin,0
+46,Female,COPD,7,Prednisone,0
+30,Male,COPD,4,Metformin,1
+29,Female,Heart Disease,5,Insulin,0
+63,Male,COPD,24,Metformin,1
+19,Female,Hypertension,1,Metformin,1
+52,Male,Heart Disease,1,Prednisone,0
+25,Male,COPD,15,Amlodipine,1
+43,Female,Heart Disease,20,Insulin,1
+51,Female,Asthma,19,Prednisone,0
+24,Male,Hypertension,29,Metformin,1
+85,Female,COPD,10,Metformin,1
+75,Female,Asthma,28,Amlodipine,1
+46,Male,Asthma,18,Insulin,0
+53,Male,Heart Disease,28,Insulin,1
+38,Female,Asthma,3,Lisinopril,0
+53,Male,Hypertension,11,Insulin,1
+27,Male,Hypertension,15,Amlodipine,1
+41,Male,Diabetes,27,Lisinopril,1
+81,Female,Hypertension,11,Lisinopril,1
+66,Female,Asthma,17,Metformin,0
+53,Male,Hypertension,17,Metformin,0
+41,Female,Heart Disease,6,Insulin,1
+40,Male,Diabetes,5,Lisinopril,1
+79,Female,Asthma,8,Metformin,1
+54,Male,Diabetes,2,Amlodipine,1
+29,Male,Asthma,16,Metformin,1
+72,Female,Heart Disease,20,Metformin,1
+30,Male,Diabetes,24,Lisinopril,1
+40,Female,COPD,12,Lisinopril,1
+47,Female,Asthma,6,Prednisone,0
+34,Male,COPD,1,Amlodipine,0
+79,Male,Diabetes,4,Lisinopril,0
+30,Female,COPD,17,Insulin,1
+76,Male,COPD,13,Amlodipine,1
+36,Male,Diabetes,18,Amlodipine,1
+66,Male,Heart Disease,5,Lisinopril,0
+29,Male,COPD,24,Amlodipine,1
+78,Male,COPD,24,Lisinopril,0
+36,Female,Heart Disease,27,Metformin,1
+26,Female,COPD,3,Prednisone,0
+88,Male,COPD,11,Metformin,0
+45,Male,COPD,13,Lisinopril,0
+69,Male,Hypertension,4,Lisinopril,1
+33,Female,Heart Disease,26,Metformin,0
+86,Male,COPD,27,Insulin,1
+29,Female,Heart Disease,14,Insulin,1
+42,Female,Asthma,22,Insulin,1
+69,Female,Asthma,11,Lisinopril,1
+70,Male,COPD,27,Amlodipine,1
+40,Female,Heart Disease,10,Lisinopril,0
+33,Male,Heart Disease,19,Amlodipine,1
+74,Female,Heart Disease,18,Metformin,1
+56,Male,Hypertension,6,Prednisone,1
+70,Female,Asthma,27,Amlodipine,1
+59,Male,Heart Disease,29,Insulin,1
+75,Female,Heart Disease,15,Lisinopril,0
+56,Male,Hypertension,21,Metformin,0
+31,Male,Hypertension,10,Insulin,1
+22,Male,Heart Disease,5,Metformin,0
+52,Male,Diabetes,26,Prednisone,0
+35,Female,Heart Disease,29,Lisinopril,1
+26,Female,Heart Disease,5,Lisinopril,0
+75,Male,Hypertension,10,Prednisone,1
+34,Female,Hypertension,28,Lisinopril,0
+24,Male,Heart Disease,5,Amlodipine,0
+63,Male,Heart Disease,3,Metformin,0
+30,Female,Heart Disease,23,Insulin,1
+57,Male,Hypertension,6,Prednisone,0
+59,Male,Heart Disease,4,Amlodipine,0
+26,Female,Heart Disease,18,Insulin,1
+67,Male,COPD,28,Insulin,1
+44,Male,Diabetes,9,Prednisone,0
+83,Male,Asthma,17,Amlodipine,1
+22,Male,Diabetes,29,Insulin,0
+46,Female,COPD,13,Insulin,0
+54,Female,Asthma,27,Amlodipine,1
+55,Female,Heart Disease,15,Lisinopril,1
+25,Male,COPD,20,Insulin,1
+82,Male,Heart Disease,17,Metformin,0
+34,Female,Hypertension,13,Amlodipine,1
+88,Male,COPD,16,Insulin,0
+62,Male,Hypertension,22,Prednisone,1
+21,Male,COPD,4,Metformin,0
+53,Male,COPD,5,Insulin,1
+87,Female,Hypertension,5,Metformin,0
+48,Female,Asthma,9,Metformin,1
+36,Female,Diabetes,17,Lisinopril,0
+78,Male,Heart Disease,13,Metformin,1
+71,Female,COPD,2,Lisinopril,1
+56,Female,Heart Disease,13,Amlodipine,0
+36,Male,Hypertension,22,Lisinopril,1
+56,Male,Heart Disease,21,Prednisone,0
+84,Female,Hypertension,27,Insulin,0
+62,Female,Heart Disease,23,Amlodipine,1
+30,Female,Diabetes,19,Amlodipine,0
+75,Female,Diabetes,3,Prednisone,1
+37,Male,Diabetes,10,Lisinopril,1
+89,Female,Diabetes,2,Insulin,0
+78,Female,Diabetes,13,Lisinopril,1
+56,Male,Diabetes,19,Metformin,0
+18,Female,Hypertension,26,Lisinopril,0
+20,Male,COPD,17,Amlodipine,1
+79,Male,Heart Disease,21,Insulin,1
+80,Male,Diabetes,14,Lisinopril,0
+42,Female,Hypertension,12,Insulin,0
+73,Female,Hypertension,21,Insulin,1
+50,Male,Hypertension,12,Metformin,1
+55,Female,COPD,11,Metformin,1
+23,Female,Heart Disease,7,Amlodipine,1
+75,Male,COPD,4,Prednisone,0
+61,Male,Asthma,19,Insulin,1
+62,Female,Hypertension,1,Prednisone,0
+49,Male,Asthma,28,Amlodipine,0
+62,Female,Diabetes,24,Insulin,1
+78,Female,Diabetes,29,Insulin,0
+64,Female,COPD,3,Prednisone,1
+38,Female,Heart Disease,13,Lisinopril,0
+53,Male,Asthma,15,Metformin,1
+36,Male,Heart Disease,2,Lisinopril,0
+37,Male,COPD,11,Prednisone,0
+74,Male,Diabetes,4,Metformin,1
+35,Female,Heart Disease,19,Lisinopril,1
+64,Female,Heart Disease,29,Metformin,0
+66,Male,Diabetes,17,Insulin,0
+31,Female,Asthma,3,Lisinopril,1
+32,Female,Diabetes,28,Metformin,0
+48,Female,Heart Disease,18,Metformin,1
+18,Male,Asthma,8,Metformin,0
+71,Male,Asthma,22,Lisinopril,1
+20,Male,Diabetes,25,Amlodipine,0
+33,Female,Heart Disease,24,Lisinopril,1
+74,Male,COPD,26,Prednisone,1
+29,Male,Heart Disease,19,Lisinopril,0
+33,Male,Hypertension,5,Metformin,1
+89,Male,COPD,7,Insulin,0
+41,Male,Asthma,21,Lisinopril,1
+45,Male,COPD,8,Lisinopril,1
+25,Female,Asthma,28,Metformin,1
+53,Female,Asthma,5,Insulin,0
+25,Male,COPD,17,Insulin,1
+75,Male,Asthma,5,Prednisone,0
+77,Female,Asthma,4,Lisinopril,1
+67,Female,Hypertension,22,Insulin,0
+45,Male,Heart Disease,19,Insulin,0
+58,Male,Heart Disease,27,Amlodipine,0
+81,Male,Hypertension,21,Amlodipine,1
+44,Male,COPD,2,Insulin,0
+80,Female,Diabetes,11,Prednisone,1
+34,Male,Diabetes,22,Insulin,0
+50,Male,Diabetes,13,Metformin,0
+46,Male,Hypertension,15,Lisinopril,0
+30,Male,Hypertension,12,Prednisone,0
+63,Female,Asthma,22,Metformin,1
+52,Female,Diabetes,21,Prednisone,0
+23,Female,COPD,22,Metformin,0
+86,Male,COPD,11,Lisinopril,1
+64,Male,Diabetes,7,Lisinopril,0
+42,Female,Diabetes,28,Amlodipine,0
+83,Male,Diabetes,5,Metformin,0
+27,Male,Hypertension,17,Amlodipine,0
+73,Female,Hypertension,24,Metformin,1
+47,Female,Hypertension,20,Amlodipine,1
+22,Female,Heart Disease,9,Lisinopril,0
+50,Female,COPD,14,Prednisone,1
+82,Male,COPD,26,Amlodipine,1
+35,Male,Asthma,12,Metformin,0
+66,Female,Hypertension,6,Metformin,1
+28,Male,Heart Disease,17,Lisinopril,0
+43,Female,Heart Disease,19,Metformin,1
+80,Female,COPD,19,Insulin,1
+76,Male,Hypertension,26,Prednisone,1
+44,Female,Asthma,16,Amlodipine,0
+66,Male,Hypertension,12,Prednisone,1
+50,Male,Diabetes,12,Lisinopril,0
+18,Male,Hypertension,20,Amlodipine,0
+38,Male,Diabetes,6,Amlodipine,1
+72,Female,Diabetes,23,Insulin,0
+23,Male,Asthma,26,Lisinopril,1
+86,Female,COPD,4,Metformin,0
+22,Female,Hypertension,6,Insulin,0
+20,Female,Diabetes,11,Insulin,1
+70,Female,Hypertension,1,Prednisone,1
+40,Male,COPD,24,Prednisone,1
+70,Male,COPD,23,Prednisone,1
+54,Female,Heart Disease,15,Insulin,0
+34,Female,COPD,27,Metformin,0
+18,Male,Asthma,11,Amlodipine,0
+68,Female,Diabetes,25,Prednisone,1
+62,Male,Heart Disease,19,Metformin,0
+21,Female,Asthma,18,Lisinopril,1
+79,Male,Hypertension,17,Prednisone,0
+82,Female,Diabetes,19,Amlodipine,1
+49,Female,COPD,21,Lisinopril,0
+51,Male,Diabetes,14,Lisinopril,0
+89,Female,Hypertension,27,Amlodipine,1
+56,Female,Heart Disease,18,Prednisone,0
+43,Male,Heart Disease,28,Insulin,1
+51,Female,Heart Disease,19,Amlodipine,0
+71,Male,COPD,15,Amlodipine,0
+20,Male,Asthma,15,Amlodipine,1
+67,Female,Asthma,4,Lisinopril,1
+29,Female,Diabetes,7,Metformin,0
+82,Female,COPD,13,Insulin,0
+71,Female,Heart Disease,3,Prednisone,0
+22,Female,Heart Disease,16,Prednisone,0
+74,Female,Hypertension,9,Metformin,0
+34,Female,Hypertension,8,Amlodipine,0
+64,Male,Heart Disease,20,Insulin,1
+40,Female,Heart Disease,13,Prednisone,1
+31,Male,COPD,17,Prednisone,1
+83,Female,Asthma,17,Amlodipine,0
+68,Female,Hypertension,17,Metformin,0
+55,Male,Asthma,1,Insulin,0
+81,Female,COPD,8,Metformin,1
+55,Female,Heart Disease,19,Metformin,1
+67,Male,Asthma,6,Insulin,0
+47,Female,Heart Disease,3,Insulin,0
+68,Female,Heart Disease,27,Prednisone,1
+80,Female,Diabetes,5,Prednisone,1
+69,Male,Asthma,13,Insulin,1
+55,Female,Asthma,15,Lisinopril,0
+47,Female,Heart Disease,14,Prednisone,0
+68,Female,COPD,29,Lisinopril,0
+22,Female,Diabetes,23,Insulin,1
+46,Male,Heart Disease,16,Prednisone,1
+21,Male,Hypertension,18,Metformin,0
+27,Female,Hypertension,22,Insulin,0
+73,Female,Diabetes,29,Amlodipine,1
+34,Male,COPD,22,Lisinopril,0
+34,Male,Heart Disease,11,Insulin,1
+86,Female,Asthma,3,Insulin,1
+51,Male,Diabetes,22,Prednisone,0
+23,Female,COPD,10,Prednisone,1
+70,Male,Asthma,10,Prednisone,0
+83,Male,Hypertension,21,Amlodipine,1
+60,Male,Hypertension,16,Prednisone,1
+40,Male,Asthma,12,Insulin,0
+72,Female,Diabetes,2,Prednisone,1
+33,Male,Hypertension,9,Metformin,0
+25,Male,Heart Disease,24,Prednisone,0
+21,Female,Asthma,3,Amlodipine,1
+21,Male,Asthma,24,Metformin,0
+73,Male,Hypertension,25,Insulin,0
+42,Female,Diabetes,15,Insulin,0
+84,Male,Heart Disease,3,Lisinopril,0
+84,Female,Diabetes,19,Metformin,0
+44,Female,COPD,18,Lisinopril,0
+49,Female,COPD,8,Metformin,1
+67,Female,Hypertension,26,Metformin,0
+78,Male,Hypertension,17,Amlodipine,1
+68,Female,Hypertension,8,Lisinopril,1
+36,Male,COPD,7,Amlodipine,0
+38,Male,Diabetes,7,Metformin,1
+22,Male,Diabetes,3,Insulin,1
+59,Male,Hypertension,1,Metformin,0
+78,Male,Heart Disease,4,Amlodipine,0
+39,Male,Diabetes,25,Lisinopril,0
+38,Male,COPD,5,Lisinopril,1
+87,Male,Asthma,1,Amlodipine,1
+18,Male,Asthma,15,Lisinopril,0
+22,Male,Asthma,5,Prednisone,0
+29,Female,Heart Disease,13,Insulin,1
+63,Female,Hypertension,8,Insulin,1
+51,Female,COPD,8,Insulin,1
+66,Male,Heart Disease,5,Lisinopril,1
+62,Female,COPD,28,Lisinopril,0
+44,Female,COPD,9,Metformin,1
+43,Female,Hypertension,1,Metformin,1
+64,Male,Asthma,4,Insulin,1
+73,Male,Hypertension,3,Prednisone,1
+80,Male,Heart Disease,2,Metformin,0
+65,Male,Heart Disease,8,Metformin,0
+78,Female,Heart Disease,23,Lisinopril,1
+43,Female,Hypertension,9,Prednisone,1
+53,Female,COPD,2,Insulin,0
+18,Female,COPD,14,Metformin,0
+25,Male,Diabetes,14,Prednisone,1
+69,Male,Heart Disease,4,Prednisone,1
+64,Male,COPD,6,Insulin,0
+73,Female,Diabetes,11,Prednisone,0
+31,Male,COPD,3,Prednisone,0
+45,Male,Heart Disease,8,Prednisone,0
+19,Female,Asthma,3,Metformin,0
+43,Female,Heart Disease,14,Insulin,0
+31,Male,Hypertension,28,Prednisone,1
+76,Male,COPD,13,Prednisone,0
+73,Male,COPD,13,Metformin,0
+24,Male,Hypertension,2,Insulin,0
+20,Male,Hypertension,13,Lisinopril,0
+40,Male,Asthma,29,Metformin,1
+35,Female,COPD,19,Insulin,1
+55,Female,COPD,27,Prednisone,0
+32,Female,Asthma,6,Insulin,1
+81,Male,Diabetes,16,Insulin,1
+45,Female,Asthma,2,Insulin,1
+56,Male,Heart Disease,8,Lisinopril,1
+74,Male,COPD,17,Insulin,1
+34,Female,Hypertension,23,Lisinopril,1
+61,Male,Heart Disease,2,Prednisone,0
+42,Male,COPD,10,Lisinopril,0
+34,Female,Asthma,28,Prednisone,0
+30,Female,Heart Disease,16,Prednisone,0
+42,Female,COPD,6,Lisinopril,0
+85,Male,Diabetes,28,Metformin,1
+27,Female,Diabetes,2,Amlodipine,0
+84,Female,Hypertension,2,Insulin,0
+35,Male,COPD,26,Amlodipine,1
+51,Female,Diabetes,13,Insulin,1
+25,Female,Asthma,24,Insulin,0
+57,Female,COPD,15,Prednisone,1
+59,Male,Asthma,28,Insulin,1
+58,Male,Asthma,2,Insulin,1
+23,Male,Diabetes,7,Lisinopril,1
+69,Male,COPD,3,Amlodipine,0
+43,Female,Heart Disease,8,Lisinopril,1
+81,Male,Diabetes,23,Insulin,0
+76,Male,Diabetes,14,Prednisone,0
+73,Female,COPD,24,Lisinopril,1
+76,Female,COPD,23,Lisinopril,1
+87,Female,Asthma,27,Metformin,1
+50,Male,COPD,22,Insulin,0
+70,Male,Asthma,29,Prednisone,1
+39,Male,Diabetes,7,Lisinopril,1
+38,Female,Hypertension,21,Lisinopril,1
+87,Female,Heart Disease,7,Prednisone,1
+87,Male,Diabetes,1,Insulin,1
+21,Female,COPD,17,Metformin,0
+79,Female,Heart Disease,9,Lisinopril,1
+79,Female,Hypertension,21,Metformin,1
+41,Male,Hypertension,13,Amlodipine,1
+72,Female,Asthma,21,Insulin,0
+26,Female,Heart Disease,19,Amlodipine,1
+20,Male,Asthma,21,Amlodipine,0
+48,Male,Diabetes,19,Amlodipine,0
+57,Female,Heart Disease,25,Insulin,1
+53,Female,Diabetes,25,Insulin,1
+41,Male,Asthma,22,Prednisone,1
+23,Male,Heart Disease,17,Metformin,0
+83,Female,Asthma,23,Metformin,0
+21,Female,Heart Disease,23,Prednisone,0
+23,Female,Asthma,10,Prednisone,0
+68,Female,Hypertension,10,Amlodipine,0
+79,Male,Asthma,4,Prednisone,0
+74,Female,Hypertension,8,Lisinopril,1
+83,Female,Asthma,22,Metformin,1
+25,Male,Heart Disease,20,Prednisone,0
+43,Female,Heart Disease,20,Lisinopril,1
+68,Male,Heart Disease,18,Lisinopril,1
+62,Female,COPD,14,Lisinopril,0
+61,Female,Diabetes,18,Lisinopril,0
+22,Male,Heart Disease,28,Amlodipine,1
+87,Male,Hypertension,14,Lisinopril,0
+43,Female,Heart Disease,20,Amlodipine,0
+85,Female,COPD,21,Amlodipine,1
+36,Female,Hypertension,24,Lisinopril,0
+37,Male,COPD,15,Metformin,1
+29,Female,Hypertension,22,Lisinopril,1
+64,Male,Asthma,4,Lisinopril,1
+18,Male,Diabetes,13,Lisinopril,1
+31,Female,Diabetes,27,Metformin,1
+81,Male,COPD,23,Insulin,0
+55,Female,Diabetes,8,Insulin,0
+54,Female,COPD,18,Amlodipine,0
+28,Female,COPD,12,Amlodipine,0
+20,Female,COPD,23,Metformin,1
+50,Female,Diabetes,14,Prednisone,1
+23,Male,COPD,2,Insulin,0
+67,Male,Diabetes,18,Amlodipine,1
+27,Female,COPD,24,Insulin,0
+22,Female,Heart Disease,2,Metformin,0
+40,Male,COPD,11,Metformin,0
+27,Male,Hypertension,9,Prednisone,1
+61,Male,COPD,12,Prednisone,1
+19,Male,Asthma,17,Metformin,1
+30,Female,COPD,15,Amlodipine,1
+57,Female,Hypertension,25,Insulin,0
+19,Male,Hypertension,17,Lisinopril,1
+82,Female,Diabetes,26,Prednisone,1
+80,Male,Heart Disease,29,Lisinopril,1
+34,Female,COPD,26,Amlodipine,0
+26,Male,Diabetes,18,Prednisone,0
+32,Female,Heart Disease,22,Lisinopril,1
+41,Male,COPD,6,Amlodipine,1
+55,Male,Asthma,17,Insulin,1
+52,Female,COPD,23,Amlodipine,1
+66,Male,Hypertension,24,Prednisone,0
+86,Female,Hypertension,18,Metformin,1
+79,Female,Asthma,8,Insulin,1
+77,Male,Diabetes,9,Lisinopril,1
+67,Female,Heart Disease,6,Prednisone,0
+26,Female,COPD,5,Metformin,0
+51,Female,Hypertension,12,Amlodipine,1
+52,Female,Diabetes,25,Metformin,1
+18,Female,Asthma,29,Prednisone,1
+57,Male,Hypertension,28,Prednisone,1
+81,Female,Asthma,11,Metformin,1
+39,Female,COPD,25,Amlodipine,0
+77,Female,Heart Disease,1,Metformin,0
+81,Female,Hypertension,11,Prednisone,0
+89,Female,Hypertension,19,Prednisone,1
+28,Male,COPD,9,Lisinopril,0
+31,Female,Diabetes,27,Lisinopril,0
+77,Male,Heart Disease,2,Insulin,0
+47,Male,Hypertension,12,Prednisone,1
+52,Male,Heart Disease,4,Lisinopril,1
+54,Male,Hypertension,4,Metformin,0
+22,Female,Heart Disease,18,Amlodipine,1
+43,Male,Asthma,15,Metformin,0
+79,Male,Hypertension,19,Amlodipine,0
+21,Female,Heart Disease,13,Lisinopril,0
+59,Female,Diabetes,19,Insulin,0
+35,Female,Asthma,17,Metformin,1
+57,Male,Asthma,6,Metformin,1
+89,Female,Diabetes,16,Metformin,1
+56,Female,Heart Disease,24,Amlodipine,1
+31,Male,COPD,12,Lisinopril,0
+49,Female,Diabetes,19,Metformin,1
+68,Female,Heart Disease,5,Metformin,0
+55,Female,Diabetes,17,Insulin,1
+40,Female,Diabetes,26,Insulin,1
+80,Male,Hypertension,23,Lisinopril,1
+32,Female,Heart Disease,26,Lisinopril,0
+42,Female,COPD,29,Prednisone,0
+34,Male,Hypertension,1,Insulin,0
+83,Female,Diabetes,28,Prednisone,0
+70,Male,Diabetes,27,Amlodipine,1
+68,Female,Diabetes,25,Prednisone,0
+56,Male,Heart Disease,24,Metformin,0
+68,Male,Heart Disease,23,Prednisone,1
+87,Male,Hypertension,10,Lisinopril,1
+23,Male,COPD,15,Amlodipine,0
+84,Female,Hypertension,23,Metformin,1
+24,Male,Asthma,21,Prednisone,0
+68,Female,Diabetes,21,Amlodipine,1
+89,Male,Diabetes,11,Amlodipine,0
+59,Male,Diabetes,13,Metformin,0
+81,Male,Hypertension,5,Prednisone,0
+32,Female,Hypertension,1,Amlodipine,0
+46,Male,Diabetes,24,Amlodipine,0
+50,Female,Hypertension,12,Insulin,1
+44,Female,Heart Disease,11,Amlodipine,0
+53,Female,Heart Disease,17,Insulin,0
+46,Female,Hypertension,4,Prednisone,0
+55,Female,Diabetes,15,Prednisone,0
+74,Female,Hypertension,25,Prednisone,0
+44,Female,Hypertension,9,Lisinopril,1
+72,Female,Hypertension,21,Prednisone,1
+50,Female,Asthma,20,Amlodipine,0
+85,Male,Heart Disease,19,Metformin,1
+83,Male,COPD,19,Insulin,0
+27,Male,COPD,12,Lisinopril,1
+22,Male,Asthma,5,Prednisone,1
+55,Male,Hypertension,10,Prednisone,0
+30,Female,Asthma,17,Metformin,1
+48,Female,Asthma,5,Metformin,1
+64,Female,Diabetes,22,Lisinopril,0
+69,Female,Heart Disease,16,Insulin,0
+73,Female,COPD,7,Prednisone,1
+32,Female,Hypertension,28,Lisinopril,1
+46,Female,COPD,9,Amlodipine,1
+25,Male,COPD,3,Amlodipine,0
+22,Male,Heart Disease,15,Lisinopril,1
+46,Male,COPD,16,Prednisone,1
+64,Male,COPD,18,Lisinopril,1
+85,Female,Asthma,14,Prednisone,0
+62,Female,Heart Disease,3,Metformin,0
+19,Female,Diabetes,12,Lisinopril,0
+44,Male,Hypertension,9,Prednisone,0
+53,Female,COPD,28,Lisinopril,1
+53,Female,Hypertension,7,Lisinopril,0
+43,Female,Diabetes,9,Prednisone,1
+60,Male,Hypertension,13,Prednisone,1
+44,Female,Diabetes,18,Insulin,1
+86,Male,Asthma,5,Lisinopril,1
+37,Male,COPD,13,Amlodipine,0
+28,Male,Diabetes,4,Lisinopril,0
+55,Male,Hypertension,2,Lisinopril,0
+23,Female,COPD,16,Prednisone,0
+89,Male,Asthma,9,Lisinopril,0
+40,Male,COPD,9,Lisinopril,1
+64,Female,Diabetes,6,Amlodipine,0
+63,Female,Asthma,11,Prednisone,0
+29,Male,Hypertension,22,Lisinopril,0
+30,Female,Asthma,24,Metformin,0
+79,Male,Asthma,22,Insulin,1
+77,Male,Heart Disease,1,Amlodipine,1
+60,Male,Asthma,4,Lisinopril,1
+85,Male,Asthma,13,Metformin,1
+22,Female,COPD,23,Lisinopril,1
+54,Male,Hypertension,13,Lisinopril,0
+89,Female,COPD,13,Prednisone,1
+48,Female,COPD,2,Prednisone,1
+26,Female,Diabetes,9,Prednisone,1
+68,Female,COPD,24,Metformin,0
+46,Male,Heart Disease,8,Lisinopril,0
+57,Female,Heart Disease,7,Insulin,1
+58,Male,Diabetes,4,Amlodipine,0
+28,Female,Hypertension,18,Prednisone,0
+40,Female,Hypertension,3,Prednisone,1
+18,Male,COPD,28,Lisinopril,0
+63,Male,COPD,6,Lisinopril,0
+38,Male,COPD,12,Metformin,0
+53,Female,Hypertension,12,Metformin,1
+71,Female,Asthma,21,Prednisone,1
+74,Male,Heart Disease,28,Lisinopril,1
+18,Male,Asthma,8,Insulin,0
+80,Male,Asthma,22,Amlodipine,1
+71,Male,Hypertension,22,Lisinopril,0
+72,Female,Asthma,1,Lisinopril,0
+57,Male,Diabetes,4,Metformin,0
+32,Male,COPD,21,Amlodipine,1
+38,Male,Diabetes,28,Prednisone,1
+64,Male,Heart Disease,11,Lisinopril,1
+70,Female,COPD,3,Prednisone,1
+26,Male,Asthma,13,Lisinopril,0
+69,Female,Heart Disease,25,Prednisone,1
+74,Male,COPD,17,Amlodipine,0
+43,Male,Asthma,22,Metformin,1
+58,Female,Diabetes,22,Amlodipine,1
+52,Male,COPD,10,Insulin,1
+80,Female,Asthma,21,Metformin,0
+42,Female,Diabetes,12,Amlodipine,0
+55,Male,Heart Disease,15,Insulin,0
+19,Female,Heart Disease,21,Lisinopril,0
+24,Female,Heart Disease,10,Lisinopril,0
+51,Female,Heart Disease,14,Prednisone,1
+34,Female,Hypertension,13,Metformin,0
+60,Female,COPD,5,Lisinopril,0
+76,Female,COPD,6,Metformin,0
+68,Female,Hypertension,24,Lisinopril,0
+71,Female,Asthma,2,Prednisone,1
+41,Male,Asthma,22,Amlodipine,0
+42,Male,Heart Disease,17,Prednisone,1
+88,Female,Diabetes,4,Insulin,1
+69,Male,Asthma,14,Lisinopril,1
+87,Female,Diabetes,10,Insulin,0
+50,Female,COPD,3,Insulin,1
+66,Male,Diabetes,25,Metformin,0
+46,Female,COPD,3,Lisinopril,0
+80,Female,Hypertension,15,Insulin,0
+39,Female,Hypertension,6,Amlodipine,0
+43,Female,Heart Disease,17,Insulin,0
+45,Male,Asthma,12,Amlodipine,1
+66,Female,Heart Disease,22,Metformin,1
+88,Female,COPD,20,Insulin,0
+66,Female,Heart Disease,24,Prednisone,1
+37,Male,Diabetes,29,Metformin,0
+80,Female,COPD,11,Amlodipine,1
+78,Male,Hypertension,25,Metformin,1
+66,Male,Asthma,4,Insulin,1
+88,Female,COPD,26,Lisinopril,1
+18,Female,COPD,28,Lisinopril,1
+30,Male,Diabetes,26,Amlodipine,0
+68,Female,Asthma,6,Amlodipine,0
+73,Male,Hypertension,1,Lisinopril,1
+79,Male,COPD,20,Amlodipine,0
+49,Female,COPD,23,Metformin,1
+47,Female,Diabetes,28,Prednisone,0
+46,Male,Heart Disease,16,Prednisone,1
+66,Male,Hypertension,15,Metformin,1
+62,Male,Asthma,17,Prednisone,1
+47,Male,COPD,8,Insulin,0
+33,Female,COPD,28,Metformin,0
+57,Female,Hypertension,26,Amlodipine,1
+36,Female,Heart Disease,12,Metformin,1
+35,Female,COPD,27,Lisinopril,0
+18,Female,Hypertension,22,Amlodipine,0
+64,Male,Diabetes,21,Lisinopril,0
+83,Female,Heart Disease,10,Amlodipine,0
+55,Female,Asthma,27,Prednisone,0
+68,Female,COPD,15,Metformin,1
+80,Female,Hypertension,9,Insulin,0
+21,Female,Diabetes,2,Amlodipine,1
+18,Male,Asthma,5,Amlodipine,1
+25,Male,Hypertension,6,Lisinopril,0
+46,Male,Hypertension,7,Prednisone,0
+72,Female,Asthma,21,Lisinopril,1
+20,Male,Diabetes,25,Lisinopril,0
+49,Male,Diabetes,1,Prednisone,1
+27,Female,Heart Disease,23,Insulin,0
+51,Female,COPD,26,Lisinopril,0
+72,Female,Asthma,7,Lisinopril,0
+49,Male,Asthma,20,Amlodipine,1
+67,Male,Asthma,25,Prednisone,0
